@@ -36,7 +36,7 @@ install.packages(c(
 ### Launch
 
 ```r
-Sys.setenv(ANTHROPIC_API_KEY = "sk-ant-...")
+Sys.setenv(ANTHROPIC_API_KEY = "")
 shiny::runApp("nfl_datalab_app.R")
 ```
 
