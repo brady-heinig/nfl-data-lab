@@ -11,7 +11,7 @@ benchmarks where the bot struggles.
 
 | File | Purpose |
 |---|---|
-| `nfl_querychat_app_clean_dashboard.R` | The Shiny app (entry point). |
+| `nfl_datalab_app.R` | The Shiny app (entry point). |
 | `nfl_app_eval.R` | Structured evaluation: routing, SQL, plot interpretation. |
 | `nfl_app_eval_results.R` | Results-only script for inspecting the eval after it finishes. |
 | `nfl_app_eval_writeup.md` | Methodology + findings template for the eval. |
