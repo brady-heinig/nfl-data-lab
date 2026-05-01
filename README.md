@@ -84,7 +84,7 @@ DuckDB connection) loaded into the global environment.
 ```r
 # 1. Restart R into a clean session (RStudio: Session → Restart R).
 # 2. In the fresh session:
-Sys.setenv(ANTHROPIC_API_KEY = "sk-ant-...")
+Sys.setenv(ANTHROPIC_API_KEY = "")
 source("nfl_querychat_app_clean_dashboard.R")  # loads CSVs + helpers
 source("nfl_app_eval.R")                       # ≈ 75s, runs 3 tasks
 source("nfl_app_eval_results.R")               # measurements + viewer
