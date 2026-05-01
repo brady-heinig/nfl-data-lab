@@ -1,4 +1,4 @@
-# 2025 NFL Query Lab
+# NFL Data Lab
 
 An LLM-powered Shiny app that turns natural-language NFL questions into
 DuckDB SQL, runs them against nine season tables, and visualizes the
