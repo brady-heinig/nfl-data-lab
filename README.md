@@ -37,7 +37,7 @@ install.packages(c(
 
 ```r
 Sys.setenv(ANTHROPIC_API_KEY = "sk-ant-...")
-shiny::runApp("nfl_querychat_app_clean_dashboard.R")
+shiny::runApp("nfl_datalab_app.R")
 ```
 
 All nine CSVs need to sit in the same folder as the app file. The app
